@@ -1,0 +1,25 @@
+{
+  "name": "@strapi/provider-upload-filerobot",
+  "version": "1.0.0",
+  "description": "Scaleflex Filerobot provider for strapi upload",
+  "main": "./lib",
+  "maintainers": [
+    {
+      "name": "Ruslan Aliyev",
+      "email": "ruslan@scaleflex.com",
+      "url": "https://blog.scaleflex.com/tag/filerobot/"
+    }
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruslan Aliyev",
+  "license": "ISC",
+  "dependencies": {
+    "@filerobot/core": "^1.0.114-alpha.5",
+    "@filerobot/xhr-upload": "^1.0.114-alpha.5"
+  }
+}

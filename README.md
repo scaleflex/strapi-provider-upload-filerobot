@@ -46,3 +46,7 @@ module.exports = {
 };
 ```
 If you don't have a `plugins.js`, then create it.
+
+## Useful commands
+
+`npm i -S ./local_modules/@strapi/provider-upload-filerobot`

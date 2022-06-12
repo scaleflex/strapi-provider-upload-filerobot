@@ -18,7 +18,5 @@
   },
   "author": "Ruslan Aliyev",
   "license": "ISC",
-  "dependencies": {
-    "@filerobot/core": "^1.0.114-alpha.10"
-  }
+  "dependencies": {}
 }

@@ -62,8 +62,8 @@ Replace `'strapi::security'` with:
       useDefaults: true,
       directives: {
         'connect-src': ["'self'", 'https:'],
-        'img-src': ["'self'", 'data:', 'blob:', '{YOUR FILEROBOT TOKEN}.filerobot.com'], // OR YOUR ENTIRE DOMAIN NAME
-        'media-src': ["'self'", 'data:', 'blob:', '{YOUR FILEROBOT TOKEN}.filerobot.com'], // OR YOUR ENTIRE DOMAIN NAME
+        'img-src': ["'self'", 'data:', 'blob:', 'scaleflex.cloudimg.io', '{YOUR FILEROBOT TOKEN}.filerobot.com'], // OR YOUR ENTIRE DOMAIN NAME
+        'media-src': ["'self'", 'data:', 'blob:', 'scaleflex.cloudimg.io', '{YOUR FILEROBOT TOKEN}.filerobot.com'], // OR YOUR ENTIRE DOMAIN NAME
         upgradeInsecureRequests: null,
       },
     },

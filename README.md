@@ -103,5 +103,4 @@ Relevant task: https://sfx.li/KOL7JVXTSvGEle
 # Todo:
 
 - Currently it won't run on Windows. It only works properly on Linux. Because of this bug `Error: EPERM: operation not permitted, lstat 'C:/Users/%20/AppData/Local/Temp/strapi-upload- ... '`. But if one can learn how to upload via pipes are streams (like in this Cloudinary example: https://github.com/strapi/strapi/blob/master/packages/providers/upload-cloudinary/lib/index.js#L56), then this bug can be avoided.
-- Save SASS key into browser, instead of getting it via API all the time.
 - Nested code. Linearize it if possible.

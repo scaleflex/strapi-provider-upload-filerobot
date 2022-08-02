@@ -105,5 +105,4 @@ Relevant task: https://sfx.li/KOL7JVXTSvGEle
 
 - Currently it won't run on Windows. It only works properly on Linux. Because of this bug `Error: EPERM: operation not permitted, lstat 'C:/Users/%20/AppData/Local/Temp/strapi-upload- ... '`. But if one can learn how to upload via pipes are streams (like in this Cloudinary example: https://github.com/strapi/strapi/blob/master/packages/providers/upload-cloudinary/lib/index.js#L56), then this bug can be avoided.
 - Nested code. Linearize it if possible.
-- Display error message https://discord.com/channels/811989166782021633/841755530007805983/1003585106520317982
-- CNAME
+- Display error message https://discord.com/channels/811989166782021633/841755530007805983/1003585106520317982 (Cant really do it for now)

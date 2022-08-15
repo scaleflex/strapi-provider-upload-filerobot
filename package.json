@@ -1,5 +1,5 @@
 {
-  "name": "Strapi v3 upload provider for Filerobot by Scaleflex",
+  "name": "strapi-provider-upload-filerobot",
   "version": "1.0.1",
   "description": "Strapi v3 upload provider for Filerobot by Scaleflex",
   "main": "./lib",

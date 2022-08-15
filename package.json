@@ -1,13 +1,12 @@
 {
-  "name": "@strapi/provider-upload-filerobot",
+  "name": "Strapi v4 upload provider for Filerobot by Scaleflex",
   "version": "1.0.1",
-  "description": "Scaleflex Filerobot provider for strapi upload",
+  "description": "Strapi v4 upload provider for Filerobot by Scaleflex",
   "main": "./lib",
   "maintainers": [
     {
       "name": "Ruslan Aliyev",
-      "email": "ruslan@scaleflex.com",
-      "url": "https://blog.scaleflex.com/tag/filerobot/"
+      "email": "ruslan@scaleflex.com"
     }
   ],
   "directories": {
@@ -16,7 +15,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ruslan Aliyev",
+  "author": "Scaleflex",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "scaleflex",
+    "filerobot",
+    "upload",
+    "strapi"
+  ]
 }

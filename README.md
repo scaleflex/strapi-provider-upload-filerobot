@@ -2,4 +2,6 @@
 
 ## Usage
 
-https://docs.filerobot.com/go/filerobot-documentation/en/strapi-v3
+https://docs.filerobot.com/go/filerobot-documentation/en/plugins-and-integrations/third-party-integrations/strapi-plugins/strapi-v3-plugin
+
+Please scroll down to the "Scaleflex's Filerobot upload provider" section.

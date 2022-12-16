@@ -1,6 +1,6 @@
 {
   "name": "provider-upload-filerobot",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Strapi v4 upload provider for Filerobot by Scaleflex",
   "main": "./lib",
   "maintainers": [
@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Scaleflex",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@strapi/provider-upload-local": "^4.3.8"
   },

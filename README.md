@@ -2,15 +2,13 @@
 
 ## Pre-requisite
 
-**The Filerobot Upload Provider MUST be installed AFTER the Filerobot Plugin for the Strapi CMS.**
+The Filerobot Upload Provider should be installed after the Filerobot Plugin for Strapi. Otherwise media will just get uploaded to the local server.
 
 ## Install
 
 `npm install provider-upload-filerobot`
 
-or
-
-`yarn add provider-upload-filerobot`
+(Use `npm install provider-upload-filerobot --legacy-peer-deps `if you need to)
 
 ## After you install the upload provider
 
@@ -34,9 +32,7 @@ module.exports = {
 
 In `config/middlewares.js`
 
-Edit the `'strapi::security',` section again:
-
-Append `'{YOUR FILEROBOT TOKEN}.filerobot.com'` or your entire domain name (cname)
+Edit the `'strapi::security',` section:
 
 ```
 module.exports = [

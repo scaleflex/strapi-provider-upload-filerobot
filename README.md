@@ -28,42 +28,6 @@ module.exports = {
 };
 ```
 
-### Middleware
-
-In `config/middlewares.js`
-
-Edit the `'strapi::security',` section:
-
-```
-module.exports = [
-    'strapi::errors',
-    { // ---- FROM HERE
-        name: 'strapi::security',
-        config: {
-            contentSecurityPolicy: {
-                useDefaults: true,
-                directives: {
-                    'connect-src': ["'self'", 'https:'],
-                    'img-src': ["'self'", 'data:', 'blob:', 'assets.scaleflex.com', 'scaleflex.cloudimg.io', '{YOUR FILEROBOT TOKEN}.filerobot.com'],
-                    'media-src': ["'self'", 'data:', 'blob:', 'assets.scaleflex.com', 'scaleflex.cloudimg.io', '{YOUR FILEROBOT TOKEN}.filerobot.com'],
-                    upgradeInsecureRequests: null,
-                },
-            },
-        },
-    }, // ---- TO HERE
-    'strapi::cors',
-    'strapi::poweredBy',
-    'strapi::logger',
-    'strapi::query',
-    'strapi::body',
-    'strapi::session',
-    'strapi::favicon',
-    'strapi::public',
-];
-```
-
-For proper re-display after upload to Filerobot.
-
 ## Run
 
 `yarn build`

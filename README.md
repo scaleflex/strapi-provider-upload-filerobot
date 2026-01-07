@@ -1,8 +1,8 @@
-# Strapi v4 upload provider for Filerobot by Scaleflex
+# Strapi upload provider for Scaleflex DAM
 
 ## Pre-requisite
 
-The Filerobot Upload Provider should be installed after the Filerobot Plugin for Strapi. Otherwise media will just get uploaded to the local server.
+The Scaleflex DAM Upload Provider should be installed after the Scaleflex DAM Plugin for Strapi. Otherwise media will just get uploaded to the local server.
 
 ## Install
 
